@@ -56,6 +56,17 @@ body {
   background-color: #fff;
 }
 /* Page Header*/
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -93,6 +104,10 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
+}
+
+.contact-list {
+  display: flex;
 }
 
 .contact-list-link {
@@ -137,6 +152,8 @@ body {
   border: none;
   padding: 16px 32px;
   gap: 10px;
+  margin: 0 auto;
+  display: block;
 }
 
 .service-btn:hover,
