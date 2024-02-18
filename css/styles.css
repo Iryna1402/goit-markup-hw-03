@@ -75,7 +75,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 24px 76px 24px 156px;
+  margin-right: 76px;
 }
 
 .logo-part {
